@@ -1,0 +1,42 @@
+nav
+{
+background-color:gray; 
+justify-content: space-around;
+align-items: center;
+display:flex;
+
+height:64px; 
+
+}
+
+nav li a{
+    
+    font-size: 20 px; 
+    text-transform: capitalize;
+    color: white; 
+    letter-spacing:3px;
+    font-weight: bold; 
+    text-decoration: none;
+    
+}
+
+nav li
+{
+    
+margin:20%;
+list-style: none;
+}
+
+.navbar-nav{ 
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    
+}
+
+*{
+
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
